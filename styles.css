@@ -18,7 +18,8 @@
     width: 80%;
     margin: auto;
     gap: 50px;
-    padding-bottom: 50px;
+    padding: 46px 6px;
+
     
 }
 h2{
@@ -36,6 +37,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 0;
 }
 .links{
     display: flex;
@@ -52,9 +54,18 @@ p{
 }
 
 
+
 .top{
     display:flex;
-    gap:20%;
+    justify-content: center-between;
+    gap:20px;
+    
+}
+
+img{
+    flex:0 500px;
+    height: 250px;
+    /* width: 150px; */
 }
 
 .webname{
