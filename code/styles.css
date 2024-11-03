@@ -167,6 +167,34 @@ h3{
     
 }
 
-/* .footer{
+.footer{
+    margin: 0px 60px 60px 60px;
+}
+
+.foot{
+    display: flex;
+    /* flex-direction: co; */
+    /* justify-content: space-between; */
+    gap:10%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 80px;
+    align-items: center;
     
-} */
+}
+.foot .tex{
+    color: #f9faf8;
+
+}
+.bol{
+    font-weight: 800;
+}
+
+.foot .button{
+    border: 2px solid #e5e7eb;
+    width:  110px;
+    
+    /* height: fit-content; */
+    /* width: fit-content; */
+}
+
