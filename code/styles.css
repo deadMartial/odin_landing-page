@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 50px;
-
+    margin: auto ;
 }
 
 .h{
@@ -139,4 +139,29 @@ h3{
 .con p{
     text-align: center;
     width: 160px;
+}
+
+.bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: italic sans-serif;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+    height: 500px;
+    /* width: 80%; */
+}
+.bot .quote{
+    align-self: flex-end;
+    font-weight: 900;
+    padding-right: 10%;
+    width: 80%;
+}
+.bot p{
+    padding-left: 10%;
+    width: 80%;
 }
