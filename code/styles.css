@@ -5,6 +5,15 @@
     font-family: Roboto sams-serif;
 }
 
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
 .h{
     /* border:1px solid red; */
     background-color: #1f2937;
@@ -15,7 +24,7 @@
     flex-direction: column;
     /* align-items: center; */
     background-color: #1f2937;
-    width: 90%;
+    width: 80%;
     margin: auto;
     gap: 50px;
     padding: 46px 6px;
@@ -28,7 +37,7 @@ h2{
     font-weight: 500;
 }
 
-p{
+.webname p{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -55,15 +64,23 @@ p{
 
 .top{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap:20%;
     
 }
 
 img{
-    flex:0 500px;
-    height: 250px;
+    
+    max-height: 100%;
+    max-width:80%;
     /* width: 150px; */
+    /* flex: 2; */
+    transform: rotate(90deg);
+}
+.image{
+    /* overflow:visible; */
+    flex:1;
+    
 }
 
 .webname{
@@ -72,7 +89,7 @@ img{
     justify-content: center;
     gap: 10px;
     align-items: flex-start;
-
+    flex: 2 ;
 }
 
 .button{
@@ -80,4 +97,46 @@ img{
     color: #f9faf8;
     padding: 5px 20px;
     border-radius: 8px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 50px; */
+    gap: 30px;
+    justify-content: center;
+    /* height: 80px; */
+}
+
+h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 5%;
+}
+
+.blank{
+    padding: 80px;
+    border: 2px solid #3882f6;
+    /* display: inline; */
+    border-radius: 10px; 
+    
+    
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.con p{
+    text-align: center;
+    width: 160px;
 }
