@@ -27,7 +27,7 @@ body{
     width: 80%;
     margin: auto;
     gap: 50px;
-    padding: 46px 6px;
+    padding: 26px 6px 46px 6px;
 
     
 }
@@ -197,4 +197,13 @@ h3{
     /* height: fit-content; */
     /* width: fit-content; */
 }
-
+.copyright{
+    background-color: #1f2937;
+    width: 100%;
+    
+}
+.copyright p{
+    text-align: center;
+    color: #f9faf8;
+    padding: 20px 0;
+}
